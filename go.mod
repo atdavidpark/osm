@@ -4,21 +4,20 @@ go 1.15
 
 require (
 	github.com/AlekSi/gocov-xml v0.0.0-20190121064608-3a14fb1c4737
-	github.com/Azure/go-autorest/autorest/to v0.3.0
+	github.com/Azure/go-autorest/autorest/to v0.4.0
 	github.com/axw/gocov v1.0.0
 	github.com/cskr/pubsub v1.0.2
 	github.com/deckarep/golang-set v1.7.1
-	github.com/docker/docker v1.4.2-0.20200203170920-46ec8731fbce
+	github.com/docker/docker v20.10.17+incompatible
 	github.com/dustin/go-humanize v1.0.0
-	github.com/envoyproxy/go-control-plane v0.9.8
-	github.com/fatih/color v1.10.0
-	github.com/go-logr/logr v0.2.1 // indirect
-	github.com/golang/mock v1.4.1
-	github.com/golang/protobuf v1.4.3
+	github.com/envoyproxy/go-control-plane v0.9.10-0.20210907150352-cf90f659a021
+	github.com/fatih/color v1.13.0
+	github.com/golang/mock v1.6.0
+	github.com/golang/protobuf v1.5.2
 	github.com/golangci/golangci-lint v1.32.2
-	github.com/google/go-cmp v0.5.4
-	github.com/google/uuid v1.1.2
-	github.com/gorilla/mux v1.7.3
+	github.com/google/go-cmp v0.5.6
+	github.com/google/uuid v1.2.0
+	github.com/gorilla/mux v1.8.0
 	github.com/hashicorp/go-version v1.2.0
 	github.com/hashicorp/vault/api v1.0.4
 	github.com/jetstack/cert-manager v0.16.1
@@ -27,35 +26,32 @@ require (
 	github.com/matm/gocov-html v0.0.0-20200509184451-71874e2e203b
 	github.com/mitchellh/gox v1.0.1
 	github.com/norwoodj/helm-docs v1.4.0
-	github.com/olekukonko/tablewriter v0.0.2
-	github.com/onsi/ginkgo v1.16.1
-	github.com/onsi/gomega v1.11.0
+	github.com/olekukonko/tablewriter v0.0.5
+	github.com/onsi/ginkgo v1.16.4
+	github.com/onsi/gomega v1.19.0
 	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.7.1
-	github.com/prometheus/common v0.10.0
+	github.com/prometheus/client_golang v1.12.1
+	github.com/prometheus/common v0.32.1
 	github.com/rs/zerolog v1.18.0
 	github.com/servicemeshinterface/smi-sdk-go v0.5.0
-	github.com/spf13/cobra v1.1.1
+	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/objx v0.3.0 // indirect
-	github.com/stretchr/testify v1.7.0
-	golang.org/x/sys v0.0.0-20210414055047-fe65e336abe0 // indirect
-	golang.org/x/tools v0.1.1-0.20210319172145-bda8f5cee399 // indirect
+	github.com/stretchr/testify v1.7.2
 	gomodules.xyz/jsonpatch/v2 v2.0.1
-	google.golang.org/grpc v1.27.1
-	google.golang.org/protobuf v1.25.0
+	google.golang.org/grpc v1.43.0
+	google.golang.org/protobuf v1.27.1
 	gopkg.in/yaml.v2 v2.4.0
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
-	helm.sh/helm/v3 v3.5.3
+	helm.sh/helm/v3 v3.9.4
 	honnef.co/go/tools v0.1.1 // indirect
-	k8s.io/api v0.20.5
-	k8s.io/apiextensions-apiserver v0.20.2
-	k8s.io/apimachinery v0.20.5
-	k8s.io/cli-runtime v0.20.5
-	k8s.io/client-go v0.20.5
-	k8s.io/code-generator v0.20.5
-	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
+	k8s.io/api v0.24.2
+	k8s.io/apiextensions-apiserver v0.24.2
+	k8s.io/apimachinery v0.24.2
+	k8s.io/cli-runtime v0.24.2
+	k8s.io/client-go v0.24.2
+	k8s.io/code-generator v0.24.2
+	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	mvdan.cc/gofumpt v0.1.0 // indirect
 	sigs.k8s.io/controller-runtime v0.6.3
 	sigs.k8s.io/kind v0.9.0
